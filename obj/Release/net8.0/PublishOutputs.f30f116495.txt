@@ -1,0 +1,12 @@
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/hng-task1
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/appsettings.Development.json
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/appsettings.json
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/hng-task1.dll
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/hng-task1.deps.json
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/hng-task1.runtimeconfig.json
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/hng-task1.pdb
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/Microsoft.AspNetCore.OpenApi.dll
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/Microsoft.OpenApi.dll
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/Swashbuckle.AspNetCore.Swagger.dll
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/out/Swashbuckle.AspNetCore.SwaggerUI.dll
