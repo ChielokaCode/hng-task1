@@ -4,6 +4,7 @@ namespace hng_task1.Controllers
 {
     [ApiController]
     [Route("api/hello")]
+    [EnableCors("AllowAllOrigins")]
     public class UserController : ControllerBase
     {
 
