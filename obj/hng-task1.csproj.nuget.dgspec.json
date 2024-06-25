@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/hng-task1.csproj": {}
+    "/Users/wikiwoo/Desktop/JavaTuts/hng-task1R/hng-task1.csproj": {}
   },
   "projects": {
-    "/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/hng-task1.csproj": {
+    "/Users/wikiwoo/Desktop/JavaTuts/hng-task1R/hng-task1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/hng-task1.csproj",
+        "projectUniqueName": "/Users/wikiwoo/Desktop/JavaTuts/hng-task1R/hng-task1.csproj",
         "projectName": "hng-task1",
-        "projectPath": "/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/hng-task1.csproj",
+        "projectPath": "/Users/wikiwoo/Desktop/JavaTuts/hng-task1R/hng-task1.csproj",
         "packagesPath": "/Users/wikiwoo/.nuget/packages/",
-        "outputPath": "/Users/wikiwoo/Desktop/JavaTuts/C# Projects/Project1/hng-task1/obj/",
+        "outputPath": "/Users/wikiwoo/Desktop/JavaTuts/hng-task1R/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/wikiwoo/.nuget/NuGet/NuGet.Config"
@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.4, )"

@@ -6,6 +6,19 @@ using Microsoft.AspNetCore.HttpOverrides;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configure CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAllOrigins",
+        builder =>
+        {
+            builder.AllowAnyOrigin()  // Allow requests from any origin
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
+
+
 // Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddSingleton<ILogger<UserController>, Logger<UserController>>();
@@ -29,6 +42,8 @@ app.UseForwardedHeaders(new ForwardedHeadersOptions
 {
     ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto
 });
+//Configure CORS Policy
+app.UseCors("AllowAllOrigins");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
