@@ -2,6 +2,8 @@ global using hng_task1.Controllers;
 global using hng_task1.Model;
 global using hng_task1.Service;
 global using hng_task1.ServiceImpl;
+global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.HttpOverrides;
 
 var builder = WebApplication.CreateBuilder(args);
